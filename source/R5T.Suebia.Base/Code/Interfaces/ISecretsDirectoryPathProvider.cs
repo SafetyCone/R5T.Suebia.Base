@@ -3,7 +3,7 @@
 
 namespace R5T.Suebia
 {
-    public interface IRivetSecretsDirectoryPathProvider
+    public interface ISecretsDirectoryPathProvider
     {
         string GetRivetSecretsDirectoryPath();
     }
