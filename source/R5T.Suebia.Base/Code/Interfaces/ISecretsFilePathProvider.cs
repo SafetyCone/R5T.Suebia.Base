@@ -5,6 +5,6 @@ namespace R5T.Suebia
 {
     public interface ISecretsFilePathProvider
     {
-        string GetSecretsFilePath(string fileName);
+        string GetSecretsFilePath(string secretsFileName);
     }
 }
