@@ -1,9 +1,12 @@
 ﻿using System;
 
+using R5T.T0064;
+
 
 namespace R5T.Suebia
 {
-    public interface ISecretsDirectoryPathProvider
+    [ServiceDefinitionMarker]
+    public interface ISecretsDirectoryPathProvider : IServiceDefinition
     {
         string GetSecretsDirectoryPath();
     }
